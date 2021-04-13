@@ -24,7 +24,7 @@ namespace TwittR.Api.Tests.IntegrationTests.TweetLikes
         }
 
         
-        [Fact]
+        [Fact(Skip = "TODO")]
         public async Task PostTweetLikesReturnsSuccessCodeAndResourceWithAccurateFields()
         {
                      var client = _factory.CreateClient(new WebApplicationFactoryClientOptions

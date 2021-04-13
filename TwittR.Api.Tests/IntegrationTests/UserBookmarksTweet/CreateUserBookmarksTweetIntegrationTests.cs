@@ -23,8 +23,8 @@ namespace TwittR.Api.Tests.IntegrationTests.UserBookmarksTweet
             _factory = factory;
         }
 
-        
-        [Fact]
+
+        [Fact(Skip = "TODO")]
         public async Task PostUserBookmarksTweetReturnsSuccessCodeAndResourceWithAccurateFields()
         {
                      var client = _factory.CreateClient(new WebApplicationFactoryClientOptions

@@ -23,8 +23,8 @@ namespace TwittR.Api.Tests.IntegrationTests.TwitterUserFollowsTwitterUser
             _factory = factory;
         }
 
-        
-        [Fact]
+
+        [Fact(Skip = "TODO")]
         public async Task PostTwitterUserFollowsTwitterUserReturnsSuccessCodeAndResourceWithAccurateFields()
         {
                      var client = _factory.CreateClient(new WebApplicationFactoryClientOptions
