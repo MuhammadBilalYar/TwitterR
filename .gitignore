@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+#service
+DesignValidation/bin/
+DesignValidation/obj/
+DesignValidation/local.settings.json
+
+# Test
+Application/bin/
+Application/obj/
+/src
+*.dtbcache
+*.v2
+*.testlog
+*.manifest
+*.suo
+*.dll
+obj/
+Debug/
+debug/
+bin/
+/.vs/DesignValidation/config
